@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: false,
-		src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/logo.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: true, // Display the credit text of the banner image
@@ -53,26 +53,26 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/logo.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "量子白羊",
-	bio: "向最美好的前途，那怕是漫长的路",
-	links: [
-		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/lzby-42",
-		},
-		{
-			name: "Email",
-			icon: "fa6-brands:envelope",
-			url: "mailto:2829478110@qq.com",
-		},
-		{
-			name: "QQ",
-			icon: "fa6-brands:qq",
-			url: "tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2829478110",
-		},
-	],
+    avatar: "assets/images/logo.png", 
+    name: "量子白羊",
+    bio: "向最美好的前途，那怕是漫长的路",
+    links: [
+        {
+            name: "GitHub",
+            icon: "fa6-brands:github",
+            url: "https://github.com/lzby-42",
+        },
+        {
+            name: "Email",
+            icon: "fa6-solid:envelope", // 修正为 solid
+            url: "mailto:2829478110@qq.com",
+        },
+        {
+            name: "QQ",
+            icon: "fa6-brands:qq",
+            url: "tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2829478110",
+        },
+    ],
 };
 
 export const licenseConfig: LicenseConfig = {
