@@ -2,7 +2,7 @@
 title: DP10 机器人在 Genesis 仿真中的质量翻倍与功率对齐
 published: 2026-02-08
 description: DP10 机器人在 Genesis 仿真中将质量翻倍的调试过程与功率对齐分析，含参数调整与结论
-tags: [Genesis, 动力学调试, URDF]
+tags: [Genesis, 动力学仿真, URDF]
 category: 机器人仿真调试
 draft: false
 ---
